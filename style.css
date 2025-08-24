@@ -1,56 +1,99 @@
 /* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* Base styles */
 body {
   background: #000;
   color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Hero Section */
 .hero {
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   background: #ff005c;
   text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
 }
 .hero h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  position: relative;
 }
 .hero .tagline {
-  margin: 1rem 0;
-  font-size: 1.2rem;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  font-style: italic;
 }
 .hero .cta {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.8rem 2rem;
-  background: #000;
-  color: #fff;
+  margin-top: 1.5rem;
+  padding: 1rem 2.5rem;
   font-weight: bold;
-  text-transform: uppercase;
-  border: 2px solid #fff;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.hero .cta:hover {
   background: #fff;
   color: #000;
+  text-decoration: none;
+  border: 3px solid #000;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+.hero .cta:hover {
+  background: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Glitch Effect */
+.glitch h1 {
+  position: relative;
+  color: white;
+}
+.glitch h1::before,
+.glitch h1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #ff00ff;
+  background: transparent;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch h1::before {
+  left: 2px;
+  text-shadow: -2px 0 #00fff7;
+  animation: glitch 2s infinite linear alternate-reverse;
+}
+.glitch h1::after {
+  left: -2px;
+  text-shadow: -2px 0 #ff005c;
+  animation: glitch 3s infinite linear alternate-reverse;
+}
+@keyframes glitch {
+  0% { clip: rect(42px, 9999px, 44px, 0); }
+  25% { clip: rect(85px, 9999px, 96px, 0); }
+  50% { clip: rect(12px, 9999px, 20px, 0); }
+  75% { clip: rect(65px, 9999px, 78px, 0); }
+  100% { clip: rect(22px, 9999px, 33px, 0); }
 }
 
 /* Sections */
 section {
-  padding: 3rem 1rem;
-  max-width: 800px;
+  padding: 4rem 1rem;
+  max-width: 900px;
   margin: auto;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* Gallery */
@@ -62,10 +105,12 @@ h2 {
 .gallery img {
   width: 100%;
   border: 4px solid #fff;
-  transition: transform 0.3s;
+  filter: grayscale(100%) contrast(130%);
+  transition: 0.3s;
 }
 .gallery img:hover {
-  transform: scale(1.05);
+  filter: none;
+  transform: scale(1.05) rotate(-1deg);
 }
 
 /* Contact */
@@ -80,7 +125,7 @@ h2 {
 
 /* Footer */
 footer {
-  padding: 1rem;
+  padding: 1.5rem;
   background: #111;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
