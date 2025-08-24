@@ -1,1 +1,8 @@
-
+<section class="gallery">
+  <h2>VIBES</h2>
+  <div class="grid">
+    <img src="images/house1.jpg" alt="Casa Colombera exterior">
+    <img src="images/garden.jpg" alt="Garden view">
+    <img src="images/livingroom.jpg" alt="Living room">
+  </div>
+</section>
