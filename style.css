@@ -160,3 +160,42 @@ footer {
   font-size: 0.95rem;
   letter-spacing: 1px;
 }
+/* Vibes Section Styling */
+.vibes {
+  padding: 4rem 2rem;
+  background: #fff5e6; /* warm Piemonte vibe */
+  color: #111;
+  text-align: center;
+}
+
+.vibes h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.vibes p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.vibes .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.vibes .grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.vibes .grid img:hover {
+  transform: scale(1.05);
+}
