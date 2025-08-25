@@ -3,34 +3,50 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://casacolombera.github.io/</loc>
+    <loc>https://casacolombera.com/</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- About Casa Colombera -->
+  <url>
+    <loc>https://casacolombera.com/#about</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Gallery -->
   <url>
-    <loc>https://casacolombera.github.io/#gallery</loc>
+    <loc>https://casacolombera.com/#gallery</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Vibes Section -->
+  <!-- Vibes & Surroundings -->
   <url>
-    <loc>https://casacolombera.github.io/#vibes</loc>
+    <loc>https://casacolombera.com/#vibes</loc>
     <lastmod>2025-08-25</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://casacolombera.github.io/#contact</loc>
+    <loc>https://casacolombera.com/#contact</loc>
     <lastmod>2025-08-25</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- Google Maps Embed (Optional, for Local SEO) -->
+  <url>
+    <loc>https://casacolombera.com/#map</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
