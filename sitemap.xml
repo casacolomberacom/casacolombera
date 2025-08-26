@@ -7,11 +7,25 @@
   <url>
     <loc>https://casacolombera.com/</loc>
     <lastmod>2025-08-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://casacolombera.com/images/house1.jpeg</image:loc>
-      <image:caption>Casa Colombera — wild holiday escape in Piemonte</image:caption>
+      <image:caption>Casa Colombera — brutal, wild, authentic holiday escape in Piemonte</image:caption>
+      <image:title>Casa Colombera — Piemonte Hideaway</image:title>
+    </image:image>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://casacolombera.com/#about</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://casacolombera.com/images/about.jpeg</image:loc>
+      <image:caption>Hidden valleys of Piemonte — Casa Colombera surroundings</image:caption>
+      <image:title>Casa Colombera — Authentic Piemonte</image:title>
     </image:image>
   </url>
 
@@ -19,19 +33,22 @@
   <url>
     <loc>https://casacolombera.com/#gallery</loc>
     <lastmod>2025-08-25</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://casacolombera.com/images/livingroom.jpeg</image:loc>
       <image:caption>Minimalist interiors at Casa Colombera</image:caption>
+      <image:title>Casa Colombera Interiors</image:title>
     </image:image>
     <image:image>
       <image:loc>https://casacolombera.com/images/garden.jpeg</image:loc>
       <image:caption>Wild garden in the Langhe hills</image:caption>
+      <image:title>Casa Colombera Garden</image:title>
     </image:image>
     <image:image>
       <image:loc>https://casacolombera.com/images/sunset.jpeg</image:loc>
       <image:caption>Magical Piemonte sunsets</image:caption>
+      <image:title>Piemonte Sunset View</image:title>
     </image:image>
   </url>
 
@@ -40,7 +57,7 @@
     <loc>https://casacolombera.com/#vibes</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <!-- Contact -->
@@ -56,7 +73,7 @@
     <loc>https://casacolombera.com/#map</loc>
     <lastmod>2025-08-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.65</priority>
   </url>
 
 </urlset>
