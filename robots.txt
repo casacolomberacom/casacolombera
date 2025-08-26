@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://casacolombera.com/sitemap.xml
-Sitemap: https://casacolombera.github.io/sitemap.xml
-
