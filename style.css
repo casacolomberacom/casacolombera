@@ -240,3 +240,20 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.15);
+}
